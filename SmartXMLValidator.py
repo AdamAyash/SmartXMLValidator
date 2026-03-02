@@ -166,3 +166,7 @@ result_text = scrolledtext.ScrolledText(
 )
 result_text.pack(fill="both", expand=True, padx=30, pady=15)
 root.mainloop()
+
+
+def __init__():
+    print()

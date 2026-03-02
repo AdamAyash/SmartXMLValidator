@@ -26,17 +26,25 @@ This application allows users to validate XML files against an XSD schema throug
 - lxml – XML and XSD parsing and validation
 
 ## Installation
+```
 1. Clone the repository
 git clone https://github.com/your-username/smart-xml-validator.git
 cd smart-xml-validator
+
 2. Install dependencies
 pip install lxml
+```
 
-Note: Tkinter is included by default with most Python installations.
+```Note: Tkinter is included by default with most Python installations.```
 
-How to Run
+## How to Run
+```
 python SmartXMLValidator.py
-How It Works
+or
+./ SmartXMLValidator.bat 
+```
+
+## How It Works
 
 The user selects:
 
@@ -58,7 +66,8 @@ Success message if valid
 
 Error list with line and column numbers if invalid
 
-Project Structure
+## Project Structure
+```
 smart-xml-validator/
 │
 ├── SmartXMLValidator.py
@@ -73,12 +82,8 @@ if xmlschema.validate(xml_doc):
 else:
     for error in xmlschema.error_log:
         print(error.message)
-Future Improvements
-
-Drag and drop file support
-
-Dark mode
-
-Export validation report to file
-
-SAX-based streaming validation for large XML files
+```        
+- Future Improvements
+- Drag and drop file support
+- Dark mode
+- Export validation report to file
