@@ -31,17 +31,17 @@ This application allows users to validate XML files against an XSD schema throug
 git clone https://github.com/your-username/smart-xml-validator.git
 cd smart-xml-validator
 
-2. Install dependencies
-pip install lxml
+2. Install dependencies via 
+./Install.bat
 ```
 
 ```Note: Tkinter is included by default with most Python installations.```
 
 ## How to Run
 ```
-python SmartXMLValidator.py
+python smart_xml_validator.py
 or
-./ SmartXMLValidator.bat 
+./ Run.bat 
 ```
 
 ## How It Works
