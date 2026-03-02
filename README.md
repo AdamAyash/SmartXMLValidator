@@ -1,31 +1,31 @@
 # Smart XML Validator
-
 A simple and modern desktop XML validator built with Tkinter and lxml.
 This application allows users to validate XML files against an XSD schema through an intuitive graphical interface.
+<br>
 
-Features
+## Features
 
-Browse and select XML file
+- Browse and select XML file
 
-Browse and select XSD schema file
+- Browse and select XSD schema file
 
-Validate XML against XSD
+- Validate XML against XSD
 
-Display detailed validation errors (line & column)
+- Display detailed validation errors (line & column)
 
-Clean and modern UI design
+- Clean and modern UI design
 
-Color-coded success and error messages
+- Color-coded success and error messages
 
-Technologies Used
+## Technologies Used
 
-Python 3
+- Python 3
 
-Tkinter – GUI framework
+- Tkinter – GUI framework
 
-lxml – XML and XSD parsing and validation
+- lxml – XML and XSD parsing and validation
 
-Installation
+## Installation
 1. Clone the repository
 git clone https://github.com/your-username/smart-xml-validator.git
 cd smart-xml-validator
