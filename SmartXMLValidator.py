@@ -41,7 +41,6 @@ def validate_xml():
         for event, element in etree.iterparse(
             xml_path,
             events=("end",),
-            parser=parser
         ):
             element.clear()  # free memory
 
